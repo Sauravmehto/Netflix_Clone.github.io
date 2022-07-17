@@ -1,0 +1,43 @@
+@media (min-width: 1400px) and (max-width: 2400px) {
+    #banner-part .slider-for .slide-bg {
+        height: 100vh;
+        padding-top: 110px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        color: #fff;
+    }
+
+    #banner-part .slider-nav {
+        bottom: 5%;
+    }
+
+    #banner-part .slider-nav .next-arrow {
+        color: #fff;
+        padding: 10px 14px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.6);
+        font-size: 20px;
+        right: 10px;
+        position: absolute;
+        z-index: 9;
+        top: 34%;
+        cursor: pointer;
+    }
+
+}
+
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*======== Extra small device =========*/
+
+@media (max-width: 575.98px) {}
